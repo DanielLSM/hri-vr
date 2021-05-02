@@ -1,4 +1,17 @@
-  
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# Asset meta data should only be ignored when the corresponding asset is also ignored
+!/[Aa]ssets/**/*.meta
+
+# Visual Studio cache directory
+.vs/
+
 #Example from ml-agents, add more if needed
 
 # Output Artifacts (Legacy)
